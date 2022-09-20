@@ -1,0 +1,252 @@
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: rgb(255,255,255);
+    background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(0,151,255,1) 100%);
+
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    opacity: 0;
+    transition-duration: 3s;
+    transition-property: opacity;   
+}
+
+body.fade {
+    opacity: 1;
+  }
+
+
+#weather-container{
+    background-color: #00719a99;
+    border-radius: 16px;
+    backdrop-filter: blur(8.2px);
+    -webkit-backdrop-filter: blur(8.2px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    width: 500px;
+    border-radius: 10px;
+    opacity: 1;
+    
+}
+
+.inputdiv{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 500px;
+    border-radius: 50px;
+}
+
+.inputdiv input[type=text]{
+    text-align: center;
+    width: 80%;
+    height: 40px;
+    border-radius: 20px;
+    border: solid white;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    outline-width: 0;
+}
+
+.inputdiv input[type=submit]{
+    text-align: center;  
+    border: none;
+    background: none  ;
+}
+
+.inputdiv button{
+    text-align: center;  
+    border: none;
+    color: rgb(77, 77, 77);
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+    background-color: transparent !important;
+    margin-left: -30px;
+}
+
+#reset{
+    background-color: red;
+    margin-left:-10px;
+    color: white;
+    cursor: pointer;
+}
+
+
+.fa-times-circle{
+    color: rgb(105, 105, 105);
+    
+}
+
+.fa-times-circle:hover{
+    color: black;
+}
+
+.search{
+    width: 50px;
+    text-align: center;
+    margin-left: -40px
+}
+
+.fa-search{
+    color: rgb(105, 105, 105);
+    border-radius: 20px;
+    cursor: pointer;
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
+    }
+
+.fa-search:hover{
+    color: rgb(0, 0, 0);
+}
+
+
+
+.currentweather>*:first-child {
+    align-self: center;}
+
+
+.weather-header{
+    text-align: center;
+    margin-top: 15px;
+    padding: 10px 0;
+}
+
+.weather-body{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+
+}
+
+.currentweather{
+    padding: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    border-right: 1px solid rgba(0, 0, 0, 0.439);
+    height: 200px; 
+    width: 45%;    
+}
+
+
+
+.weather-temp-icon{
+    margin-top: -30px;
+    margin-left: -10px;
+}
+
+
+.weather-temp-icon img{ 
+    align-self: center;
+
+}
+
+
+.description{
+    width: 140px;
+    position: relative;
+}
+
+.description::first-letter{
+    position: relative;
+    text-transform: capitalize;
+}
+
+
+.weather-temp-main{
+    display: flex;
+}
+
+.weather-temp-actual-value{
+    font-weight: bold;
+    font-size: 100px;
+    line-height: 2rem;
+    padding-top: 20px;
+    margin-right: 10px;
+    margin-bottom: 30px;
+}
+
+.weather-values{
+    width: 200px;
+    display: grid;
+    height: 200px;
+    justify-content: center;
+    align-items: center;
+   
+    
+}
+
+.weather-values div{
+    margin-top: -15px;
+}
+
+
+.fahreinheit-value{
+    color: #64C8E4
+}
+
+.weather-forecast{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.weather-forecast img{
+    height: 100px;
+    margin-left: -6px;
+}
+
+.weather-forecast div{
+    background: rgba(255, 255, 255, 0);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    text-align: center;
+    width: 90px;
+    border-radius: 10px;
+}
+
+
+.weather-forecast h3{
+    padding-top: 5px;
+    margin-bottom: -10px;
+}
+
+.weather-forecast p{
+    margin-top: -15px;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+    }
+
+#unit{
+    font-size: 30px;
+
+}
+
+.weather-pressure p1{
+    font-weight: bold;
+}
+.weather-humidity p1{
+    font-weight: bold;
+}
+.weather-wind p1{
+    font-weight: bold;
+}
+.weather-tempfeelslike p1{
+    font-weight: bold;
+}
+
+
