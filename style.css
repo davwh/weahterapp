@@ -8,7 +8,6 @@
 body{
     background: rgb(255,255,255);
     background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(0,151,255,1) 100%);
-
     color: #fff;
     display: flex;
     justify-content: center;
@@ -25,7 +24,6 @@ body.fade {
     opacity: 1;
   }
 
-
 #weather-container{
     background-color: #00719a99;
     border-radius: 16px;
@@ -34,8 +32,7 @@ body.fade {
     border: 1px solid rgba(255, 255, 255, 0.3);
     width: 500px;
     border-radius: 10px;
-    opacity: 1;
-    
+    opacity: 1;   
 }
 
 .inputdiv{
@@ -76,16 +73,12 @@ body.fade {
 }
 
 #reset{
-    background-color: red;
     margin-left:-10px;
-    color: white;
     cursor: pointer;
 }
 
-
 .fa-times-circle{
-    color: rgb(105, 105, 105);
-    
+    color: rgb(105, 105, 105); 
 }
 
 .fa-times-circle:hover{
@@ -111,11 +104,8 @@ body.fade {
     color: rgb(0, 0, 0);
 }
 
-
-
 .currentweather>*:first-child {
     align-self: center;}
-
 
 .weather-header{
     text-align: center;
@@ -129,7 +119,6 @@ body.fade {
     display: flex;
     justify-content: space-evenly;
     width: 100%;
-
 }
 
 .currentweather{
@@ -142,19 +131,14 @@ body.fade {
     width: 45%;    
 }
 
-
-
 .weather-temp-icon{
     margin-top: -30px;
     margin-left: -10px;
 }
 
-
 .weather-temp-icon img{ 
     align-self: center;
-
 }
-
 
 .description{
     width: 140px;
@@ -165,7 +149,6 @@ body.fade {
     position: relative;
     text-transform: capitalize;
 }
-
 
 .weather-temp-main{
     display: flex;
@@ -185,18 +168,11 @@ body.fade {
     display: grid;
     height: 200px;
     justify-content: center;
-    align-items: center;
-   
-    
+    align-items: center;   
 }
 
 .weather-values div{
     margin-top: -15px;
-}
-
-
-.fahreinheit-value{
-    color: #64C8E4
 }
 
 .weather-forecast{
@@ -219,7 +195,6 @@ body.fade {
     border-radius: 10px;
 }
 
-
 .weather-forecast h3{
     padding-top: 5px;
     margin-bottom: -10px;
@@ -233,7 +208,6 @@ body.fade {
 
 #unit{
     font-size: 30px;
-
 }
 
 .weather-pressure p1{
