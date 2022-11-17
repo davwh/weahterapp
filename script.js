@@ -42,7 +42,7 @@ async function getWeather(latitude, longitude) {
         showFiveDayForecast(data);
        
 
-        //Function to get 6-day forecast
+        //Function to get 5-day forecast
         function showFiveDayForecast(data) {
             for (let i = 1; i < 6; i ++ ) {    
                 // Getting the day name for the weather forecast
